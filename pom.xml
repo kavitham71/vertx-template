@@ -34,6 +34,11 @@
       <artifactId>jackson-databind</artifactId>
       <version>2.7.9.4</version>
     </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <version>1.60</version>
+    </dependency>
     <!-- There are three profiles ("hsql" the default, "postgres", and "oracle")
          that are normally used to control which database drivers get embedded
          in our executable jar. If you want to always include a particular set,
